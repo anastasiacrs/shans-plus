@@ -1,0 +1,46 @@
+<section class="item section shp-page" *ngIf="item">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="shp-page-title">
+          <h1>{{item.title}}
+            <small>{{item.subtitle}}</small>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <shp-carousel [slides]="item.images"></shp-carousel>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>{{item.description.title}}</h3>
+        <div *ngFor="let text of item.description.text">
+          <div [ngSwitch]="text.type">
+            <p *ngSwitchCase="'small'">
+              <small [innerHTML]="text.item"></small>
+            </p>
+            <h4 *ngSwitchCase="'big'" [innerHTML]="text.item"></h4>
+            <p *ngSwitchCase="'normal'" [innerHTML]="text.item"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <h3>{{item.details.left.title}}</h3>
+        <ul>
+          <li *ngFor="let i of item.details.left.items">{{i.value}}</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <h3>{{item.details.right.title}}</h3>
+        <ul>
+          <li *ngFor="let i of item.details.right.items"><a [href]="i.link" target="_blank">{{i.text}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

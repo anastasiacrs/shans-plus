@@ -1,0 +1,27 @@
+<section id="intro" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div>
+                        <h2 class="h-ultra">{{config?.title}}</h2>
+                    </div>
+                    <div>
+                        <h4 class="h-light">{{config?.subtitle}}</h4>
+                    </div>
+                    <div>
+                        <ul>
+                            <li *ngFor="let feature of config?.features">
+                                <i class="fas fa-check-circle"></i>
+                                <span class="list"><strong>{{feature.title}}</strong><br/>{{feature.description}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        <shp-svg-logo [size]="300"></shp-svg-logo>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>

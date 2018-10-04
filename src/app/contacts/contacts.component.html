@@ -1,0 +1,29 @@
+<section class="section shp-page" *ngIf="data">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="shp-page-title">
+          <h1>{{data.title}}
+            <small>{{data.subtitle}}</small>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div *ngFor="let text of data.text">
+          <div [ngSwitch]="text.type">
+            <p *ngSwitchCase="'small'">
+              <small>{{text.item}}</small>
+            </p>
+            <h4 *ngSwitchCase="'big'">{{text.item}}</h4>
+            <p *ngSwitchCase="'normal'">{{text.item}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="15">
+      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+  </div>
+</section>

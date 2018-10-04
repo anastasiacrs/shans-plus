@@ -1,0 +1,127 @@
+{
+  "title":"Мягкая мебель",
+  "secondaryText":"от \"ШАНС-плюс\"",
+  "items":[
+	  {
+		"id":"001",
+		"title":"Угловой диван Верона-М",
+		"description":"Диван с мужским характером",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/01.jpg"
+	  },{
+		"id":"002",
+		"title":"Модульная мебель Верона-M",
+		"description":"Модуль для всей семьи.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам.",
+		"imageUrl":"assets/images/gallery-preview/02.jpg"
+	  },{
+		"id":"003",
+		"title":"Угловой диван Несвижанка-М",
+		"description":"Модель с привкусом ретро.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам.",
+		"imageUrl":"assets/images/gallery-preview/03.jpg"
+	  },{
+		"id":"004",
+		"title":"Угловой диван Комфорт-М",
+		"description":"Универсальная модель со взаимозаменяемым углом.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/04.jpg"
+	  },{
+		"id":"005",
+		"title":"Набор мебели Премьер",
+		"description":"Практичнаая модель для современного интерьера.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/05.jpg"
+	  },{
+		"id":"006",
+		"title":"Набор мебели Домино",
+		"description":"Модель со стёганным дизайном.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/06.jpg"
+	  },{
+		"id":"007",
+		"title":"Набор мебели Валенсия",
+		"description":"Диван в стиле \"Неоклассика\".",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/07.jpg"
+	  },{
+		"id":"008",
+		"title":"Набор мебели Классик",
+		"description":"Диван в английском стиле.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/08.jpg"
+	  },{
+		"id":"009",
+		"title":"Набор мебели Сити",
+		"description":"Модель для молодых и активных.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/09.jpg"
+	  },{
+		"id":"0010",
+		"title":"Набор мебели Моника",
+		"description":"Современная интерпрецация \"Ноульского дивана\"",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/010.jpg"
+	  },{
+		"id":"0011",
+		"title":"Набор мебели Мистраль-М",
+		"description":"Простая но при этом совершенная модель.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/011.jpg"
+	  },{
+		"id":"0012",
+		"title":"Набор мебели Пассаж-М",
+		"description":"Модель, которой присущи сдержанность и благородство.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/012.jpg"
+	  },{
+		"id":"0013",
+		"title":"Набор мебели Рио-М",
+		"description":"Стильная модель на высоких опорах.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/013.jpg"
+	  },{
+		"id":"0014",
+		"title":"Набор мебели Бостон-М",
+		"description":"Строгий и в тоже время изысканный .",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/014.jpg"
+	  },{
+		"id":"0015",
+		"title":"Набор мебели Сказка",
+		"description":"Классическая модель для домашнего комфорта.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/015.jpg"
+	  },{
+		"id":"0016",
+		"title":"Набор мебели Грация",
+		"description":"Модель с необычным прочтением классических решений.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/016.jpg"
+	  },{
+		"id":"0017",
+		"title":"Набор мебели Цезарина",
+		"description":"Классическая модель с пышной обивкой.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/017.jpg"
+	  },{
+		"id":"0018",
+		"title":"Набор мебели Босс",
+		"description":"Мебель для офиса.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/018.jpg"
+	  },{
+	    "id":"0019",
+		"title":"Модульная мебель Модель 01",
+		"description":"Восьмиугольный модуль.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/019.jpg"
+	  },{
+		"id":"0020",
+		"title":"Набор мебели Арго",
+		"description":"Решение для небольших пространств.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/gallery-preview/020.jpg"
+	  }
+  ]
+}

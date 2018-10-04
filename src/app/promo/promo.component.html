@@ -1,0 +1,42 @@
+<section id="promo" class="section promo shp-page">
+
+
+    <div class="w-100 promo-item" *ngFor="let item of config?.items">
+        <div class="container">
+            <div class="row">
+                <div class="card card-inverse promo-item-content w-100">
+                    <div class="card-block">
+
+                        <div class="row" *ngIf="item.imageUrl">
+                            <div class="col-6">
+                                <h1 class="card-title">{{item.title}}</h1>
+                                <h4 class="card-subtitle mb-2" *ngIf="item.subtitle">{{item.subtitle}}</h4>
+                                <p class="card-text" *ngIf="item.description">{{item.description}}</p>
+                                <p class="card-text" *ngIf="item.bottomText">
+                                    <small class="text-muted">{{item.bottomText}}</small>
+                                </p>
+                            </div>
+                            <div class="col-6">
+                                <img [src]="item.imageUrl" class="w-100">
+                            </div>
+                        </div>
+
+                        <ng-container *ngIf="!item.imageUrl">
+
+                            <h1 class="card-title">{{item.title}}</h1>
+                            <h4 class="card-subtitle mb-2" *ngIf="item.subtitle">{{item.subtitle}}</h4>
+                            <p class="card-text" *ngIf="item.description">{{item.description}}</p>
+                            <p class="card-text" *ngIf="item.bottomText">
+                                <small class="text-muted">{{item.bottomText}}</small>
+                            </p>
+
+                        </ng-container>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>

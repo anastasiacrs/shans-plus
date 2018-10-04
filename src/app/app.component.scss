@@ -1,0 +1,10 @@
+#mainXXX {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  #empty-block {
+    flex: 1 100%;
+  }
+
+}

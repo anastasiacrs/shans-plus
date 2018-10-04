@@ -1,0 +1,40 @@
+<section [id]="id" class=" gallery-preview section shp-page">
+    <div class="container">
+        <div class="row gallery-preview-title shp-page-title">
+            <h1>{{config?.title}}
+                <small>{{config?.secondaryText}}</small>
+            </h1>
+        </div>
+        <div class="row align-items-stretch">
+            <div class="col-6 gallery-item-column" *ngFor="let item of config?.items">
+                <div class="card gallery-preview-item h-100 mb-3" #galleryItem>
+                    <div class="hoverable-container">
+                        <div class='img-box'>
+                            <div class='img-content' >
+
+                                <img class="card-img-top" [src]="item.imageUrl" alt="Card image cap" (click)="navigateToItem(item.id)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                        <div class="inner-card-icon">
+
+                            <span class="fa-layers fa-fw">
+                                <a [routerLink]="['/item', item.id]" routerLinkActive="active">
+                                    <i class="fas fa-square"></i>
+                                    <i class="fa-inverse fas fa-search"
+                                       data-fa-transform="shrink-6"
+                                       style="color:white"></i>
+                                </a></span>
+                        </div>
+                        <h4 class="card-title">{{item.title}}</h4>
+                        <p class="card-text">{{item.description}}</p>
+                        <p class="card-text card-text-bottom">
+                            <small class="text-muted">{{item.bottomText}}</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

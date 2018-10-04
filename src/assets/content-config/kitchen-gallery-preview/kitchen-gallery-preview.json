@@ -1,0 +1,19 @@
+{
+  "title":"Мебель для кухни",
+  "secondaryText":"Кухонные диваны",
+  "items":[
+	  {
+		"id":"101",
+		"title":"Угловой диван для кухни В-1",
+		"description":"Модель предусматривает варианты со спальным местом.",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/kitchen-gallery-preview/01.jpg"
+	  },{
+		"id":"102",
+		"title":"Угловой диван для кухни Л-1",
+		"description":"Идеальный вариант для небольшой кухни",
+		"bottomText":"Возможно изготовление по индивидуальным размерам",
+		"imageUrl":"assets/images/kitchen-gallery-preview/02.jpg"
+	  }
+  ]
+}

@@ -1,0 +1,46 @@
+
+/* ===========================
+--- Intro
+============================ */
+
+@import"../navigation/navigation.component";
+
+$intro-padding-y:2rem;
+#intro {
+  width:100%;
+  //position:relative;
+  //padding-top:$intro-padding-y!important;
+  //padding-top:$navigation-height+$intro-padding-y!important;
+  padding-bottom: $intro-padding-y!important;
+  .container{padding-top:$intro-padding-y!important;}
+  //margin-top: 0!important;
+  //background-color: rgba(theme-color("primary"),1);
+
+  background: -moz-linear-gradient(0deg, rgba(99,184,99,1) 0%, rgba(127,209,125,1) 51%, rgba(99,184,99,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(99,184,99,1)), color-stop(51%, rgba(127,209,125,1)), color-stop(100%, rgba(99,184,99,1))); /* safari4+,chrome */
+
+  background: -webkit-linear-gradient(0deg, rgba(theme-color("primary"),.7) 0%, rgba(theme-color("primary"),.5) 51%, rgba(theme-color("primary"),.7) 100%); /* safari5.1+,chrome10+ */
+
+  background: -ms-linear-gradient(0deg, rgba(99,184,99,1) 0%, rgba(127,209,125,1) 51%, rgba(99,184,99,1) 100%); /* ie10+ */
+  background: linear-gradient(90deg, rgba(99,184,99,1) 0%, rgba(127,209,125,1) 51%, rgba(99,184,99,1) 100%); /* w3c */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b863', endColorstr='#63B863',GradientType=1 ); /* ie6-9 */
+
+  color:$gray-100;
+
+  shp-svg-logo{
+    fill:rgba($white,.9);
+  }
+
+  ul{
+    list-style-type: none;
+    li>span{
+      padding-left: $font-size-base;
+    }
+  }
+
+}
+
+
+
+
+

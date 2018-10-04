@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+//
+// Color system
+//
+
+//default start
+//
+// Color system
+//
+
+$white:  #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:  #000 !default;
+
+$grays: (
+        100: $gray-100,
+        200: $gray-200,
+        300: $gray-300,
+        400: $gray-400,
+        500: $gray-500,
+        600: $gray-600,
+        700: $gray-700,
+        800: $gray-800,
+        900: $gray-900
+) !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: (
+        blue: $blue,
+        indigo: $indigo,
+        purple: $purple,
+        pink: $pink,
+        red: $red,
+        orange: $orange,
+        yellow: $yellow,
+        green: $green,
+        teal: $teal,
+        cyan: $cyan,
+        white: $white,
+        gray: $gray-600,
+        gray-dark: $gray-800
+) !default;
+//default end
+
+$shp-main-green:#2EB331;
+$shp-light-green:#6DD16E;
+$shp-yellow:#EECD4F;
+//$shp-background-1:#FFFFFF;
+//$shp-background-2:#FAFAFA;
+//$shp-background-1:$white;
+//$shp-background-2:$gray-200;
+
+$black: #1C2126;
+
+
+
+
+$theme-colors: (
+        primary: $shp-main-green,
+        secondary: $black,
+        success: $green,
+        info: $shp-yellow,
+        warning: $yellow,
+        danger: $red,
+        light: $gray-100,
+        dark: $gray-800
+);
+
+// Body
+//
+// Settings for the `<body>` element.
+
+//$body-bg:       $white !default;
+//$body-color:    $gray-900 !default;
+
+
+
+//Fonts
+
+$font-family-sans-serif: 'Montserrat', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+
+
+// Navbar
+
+$navbar-padding-y:                  0px;
+$navbar-padding-x:                  0px;
+
+
+$navbar-dark-color:                 rgba($white,.75) ;
+$navbar-dark-hover-color:           rgba(theme-color("primary"), .5) ;
+$navbar-dark-active-color:          rgba(theme-color("primary"), 1);
+$navbar-dark-disabled-color:        rgba($white,.25) !default;
+$navbar-dark-toggler-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-dark-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-dark-toggler-border-color:  rgba($white,.1) !default;
+
+
+$carousel-control-color:$green!important;
+$carousel-control-prev-icon-bg:     str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"), "#", "%23") ;
+$carousel-control-next-icon-bg:     str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"), "#", "%23") ;
+
+
+//$card-border-color:red;
+
+//$border-color:green;
+//$hr-border-color:yellow;
+//$table-inverse-border-color:pink;

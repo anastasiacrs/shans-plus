@@ -1,0 +1,19 @@
+.preview-img{
+  height: 100px;
+}
+
+.carousel-thumbnail {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-thumbnail__item {
+  cursor: pointer;
+  margin-top: 1rem;
+
+}

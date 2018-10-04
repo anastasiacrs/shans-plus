@@ -1,0 +1,12 @@
+<ngb-carousel *ngIf="slides" class="myCarousel" [activeId]="activeSliderId" data-interval="false">
+  <ng-template ngbSlide *ngFor="let image of slides">
+    <img class="slide__image" [src]="image.src" alt="Random XXX slide">
+  </ng-template>
+</ngb-carousel>
+<ul class="carousel-thumbnail">
+  <li class="carousel-thumbnail__item list-inline-item" *ngFor="let image of slides" (click)="cycleToSlide(image)">
+    <a class="selected">
+      <img class="carousel-thumbnail__img" [src]="image.src" class="preview-img">
+    </a>
+  </li>
+</ul>
